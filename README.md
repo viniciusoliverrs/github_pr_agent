@@ -16,7 +16,7 @@ graph TD
     Review -->|Post Comment| GH
     GH -->|Comment| GitHub[GitHub API]
     
-    subgraph Agents [LangChain Agents (Gemini)]
+    subgraph Agents ["LangChain Agents (Gemini)"]
         Planner
         Executor
     end
